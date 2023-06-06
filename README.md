@@ -2,6 +2,7 @@
 implementation of experience replay augmented continual learning for 2 classification tasks
 
 **run**-MemAugCL_exp_repl_EWC.ipynb for demo
+
 **Future Improvements**
 1. Extend for n_tasks
 2. Implement EWC framework with memory management
