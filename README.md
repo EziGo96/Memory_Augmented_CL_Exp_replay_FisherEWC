@@ -7,10 +7,12 @@ implementation of experience replay augmented continual learning for 2 classific
 **Brief analysis of the model's performance and future improvements**
 
 **Task2 (identifying classes 2 & 3):** 
+
 the model performs similarly with experience replay to what it does without any memory augmentation during continiual learning
 
-**Task1 (identifying classes 0 & 1):** 
-the performance of the model has slightly degraded as compared to its original performance (accuracy dropped from 93% to 81% due to driop in recall for each class) but the model retains most of its previous knowledge from Task 1 and also performs well on Task 2. Only 20% of the data from Task1 was used for creating the replay buffer.
+**Task1 (identifying classes 0 & 1):**
+
+the performance of the model has slightly degraded as compared to its original performance (accuracy dropped from 93% to 81% due to drop in recall for each class) but the model retains most of its previous knowledge from Task 1 and also performs well on Task 2. Only 20% of the data from Task1 was used for creating the replay buffer.
 
 **Future Improvements**
 
