@@ -21,3 +21,5 @@ the model performs similarly with experience replay to what it does without any 
 2. In case data from previous tasks is not available we can use Elastic weight consolidation regularisation which I have implemented below but its is extremely computationally expensive for large models and large datasets.
 
 3. Alternately we can use knowledge distilaation from different layers from the old model to train the new model while also training it on the new dataset
+
+4. We can make the model sparse so that it can have efficient, non-overlapping representations which can reduce the extent of interference between different learned tasks, mitigating the effects of catastrophic forgetting
