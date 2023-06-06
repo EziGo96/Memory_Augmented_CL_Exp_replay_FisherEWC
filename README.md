@@ -4,7 +4,7 @@ implementation of experience replay augmented continual learning for 2 classific
 **run**-MemAugCL_exp_repl_EWC.ipynb for demo
 
 
-**Brief analysis of the model's performance and future improvements**
+# Brief analysis of the model's performance and future improvements
 
 **Task1 (identifying classes 0 & 1):**
 
